@@ -13,6 +13,7 @@ if (!function_exists('mb_detect_encoding')) {
   throw new Exception('Stripe needs the Multibyte String PHP extension.');
 }
 
+
 // Stripe singleton
 require(dirname(__FILE__) . '/Stripe/Stripe.php');
 
